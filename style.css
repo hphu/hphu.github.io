@@ -39,6 +39,7 @@ nav ul li a {
     padding: 0.5em;
 }
 nav ul li a:hover{
+    text-decoration: none;
 	border-bottom-style: solid;
 	border-bottom-width: 3px
 
@@ -52,10 +53,11 @@ nav ul li a:hover{
 }
 
 #banner {
-    background: transparent url('bgimg.png') 0 103px no-repeat fixed;
-    text-align: left;
-    background-size: contain;
     height: 244px;
+    background: transparent url('images/bgimg.png') 0 3px no-repeat fixed;
+    text-align: left;
+    background-size: cover;
+    background-attachment:scroll;
     width: 100%;
     display: table;
 }
@@ -81,10 +83,26 @@ nav ul li a:hover{
 
 }
 
+div.row {
+	display:table;
+	background-color:#FFFFFF;
+	padding:1em;
+	border-color: #cecdbe;
+	border-style:dashed;
+	border-width:2px;
+	margin-bottom:.5em;
+	margin-left:.5em;
+	width:45%;
+	float:left;
+}
 
-a{
+a {
 	text-decoration: none;
 	color: #6B8A42;
+}
+
+a:hover {
+	text-decoration:underline;
 }
 
 #foreword{
@@ -92,8 +110,32 @@ a{
 	margin: 2em 0em 0em 0em;
 }
 
-body{
+h3 {
+	margin:0 auto;
+}
+div.rowtxt {	
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	padding-left:20px;
+}
 
+img {
+	display:inline-block;
+}
+
+#readmore{
+	width:400px;
+	height:175px;
+	background-color:#89a86f;
+}
+
+.border {
+	border: 2px solid;
+	border-color: #000000;
+}
+
+body{
 	font-family: 'Lato', sans-serif;
 	background-color:#efeede;
 }
