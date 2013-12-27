@@ -1,4 +1,3 @@
-
 #top{
 	background-color:#89a86f;
 	overflow:hidden;
@@ -54,7 +53,7 @@ nav ul li a:hover{
 
 #banner {
     height: 244px;
-    background: transparent url('images/bgimg.png') 0 3px no-repeat fixed;
+    background: transparent url('Images/bgimg.png') 0 3px no-repeat fixed;
     text-align: left;
     background-size: cover;
     background-attachment:scroll;
