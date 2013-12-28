@@ -1,3 +1,4 @@
+
 #top{
 	background-color:#89a86f;
 	overflow:hidden;
@@ -53,7 +54,7 @@ nav ul li a:hover{
 
 #banner {
     height: 244px;
-    background: transparent url('Images/bgimg.png') 0 3px no-repeat fixed;
+    background: transparent url('images/bgimg.png') 0 3px no-repeat fixed;
     text-align: left;
     background-size: cover;
     background-attachment:scroll;
@@ -91,9 +92,22 @@ div.row {
 	border-width:2px;
 	margin-bottom:.5em;
 	margin-left:.5em;
-	width:45%;
+	width:46%;
 	float:left;
 }
+
+div.row2 {
+	display:table;
+	background-color:#FFFFFF;
+	padding:1em;
+	border-color: #cecdbe;
+	border-style:dashed;
+	border-width:2px;
+	margin-bottom:.5em;
+	margin-left:.5em;
+	width:100%;
+}
+
 
 a {
 	text-decoration: none;
@@ -123,18 +137,33 @@ img {
 	display:inline-block;
 }
 
-#readmore{
-	width:400px;
-	height:175px;
-	background-color:#89a86f;
-}
-
 .border {
 	border: 2px solid;
 	border-color: #000000;
 }
 
+button {
+	background-color: #89a86f;
+	color: #FFFFFF;
+	border-style:solid;
+	border-color: #6B8A42;
+	padding:5px;
+	border-radius:5px;
+	text-shadow: 0px 2px #6B8A42;
+}
+
 body{
 	font-family: 'Lato', sans-serif;
 	background-color:#efeede;
+}
+
+hr {
+	border-style:dashed;
+	color: #cecdbe;
+	margin-top:30px;
+}
+
+footer {
+	text-align:right;
+	margin-bottom:1em;
 }
