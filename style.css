@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 #banner {
     height: 244px;
-    background: transparent url('images/bgimg.png') 0 3px no-repeat fixed;
+    background: transparent url('https://raw.github.com/hphu/hphu.github.io/master/Images/bgimg.png') 0 3px no-repeat fixed;
     text-align: left;
     background-size: cover;
     background-attachment:scroll;
@@ -137,19 +137,39 @@ img {
 	display:inline-block;
 }
 
+.imgcrop {
+    margin: -25px 0 0 -75px;
+}
+.imgcropwide {
+    margin: -50px 0 0 -200px;
+}
+
+.crop {
+	width: 200px; 
+	height: 200px; 
+	overflow: hidden;
+	display:inline-block;
+}
+
 .border {
 	border: 2px solid;
 	border-color: #000000;
 }
 
-button {
+a.button {
 	background-color: #89a86f;
 	color: #FFFFFF;
 	border-style:solid;
 	border-color: #6B8A42;
-	padding:5px;
+	padding:7px;
+	border-width:2px;
 	border-radius:5px;
 	text-shadow: 0px 2px #6B8A42;
+	text-decoration:none;
+}
+
+a.button:hover{
+	background-color:#6B8A42;
 }
 
 body{
