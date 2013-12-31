@@ -6,8 +6,19 @@
 <link rel="stylesheet" href="normalize.css" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css" type="text/css">
-<style>
-</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46780276-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
 <body>
@@ -32,7 +43,7 @@
 			Welcome to my site, I am a programmer and artist currently studying at Boston University.
 			<ul>
 				<li>[<a href="#">Play Tender</a>]</li>
-				<li>[<a href="#">Tumblr-Word-Cloud</a>]</li>
+				<li>[<a href="/tumblr-word-cloud">Tumblr-Word-Cloud</a>]</li>
 				<li>[<a href="#">Pyview</a>]</li>
 			</ul>
 		</div>
@@ -63,7 +74,7 @@
 				<h3>Tumblr Word Cloud</h3>
 				<p>Scrapes up to a hundred tumblr user's recent posts and generates a word cloud with D3 using word occurences as size. The word cloud is then uploaded to imgur and able to be reblogged easily.</p>
 				<br>
-				<button>Try it</button>
+				<a href="/tumblr-word-cloud" class="button">Try it</a>
 			</div>
 		</div>
 		<div class="row2">
