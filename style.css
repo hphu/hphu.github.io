@@ -1,8 +1,10 @@
 
 #top{
+	min-width:900px;
 	background-color:#89a86f;
 	overflow:hidden;
 	height:100px;
+	width:100%;
 	box-shadow: 0px 3px 0px #6B8A42;
 }
 
@@ -53,6 +55,7 @@ nav ul li a:hover{
 }
 
 #banner {
+	min-width:900px;
     height: 244px;
     background: transparent url('https://raw.github.com/hphu/hphu.github.io/master/Images/bgimg.png') 0 3px no-repeat fixed;
     text-align: left;
@@ -135,6 +138,14 @@ div.rowtxt {
 
 img {
 	display:inline-block;
+}
+
+.centerimg { 
+	padding-top:15px;
+	padding-bottom:15px;
+	display:block;
+	margin:0 auto;
+	text-align: center;
 }
 
 .imgcrop {
