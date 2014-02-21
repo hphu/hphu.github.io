@@ -168,6 +168,7 @@ img {
 }
 
 a.button {
+	white-space:nowrap;
 	background-color: #89a86f;
 	color: #FFFFFF;
 	border-style:solid;
