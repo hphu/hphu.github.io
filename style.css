@@ -35,13 +35,13 @@ nav ul li {
 }
 nav ul li a {
 	color: #FFFFFF;
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 	text-shadow: 0px -2px 0px #587334;
-    padding: 0.5em;
+  padding: 0.5em;
 }
 nav ul li a:hover{
-    text-decoration: none;
+  text-decoration: none;
 	border-bottom-style: solid;
 	border-bottom-width: 3px
 
@@ -57,12 +57,13 @@ nav ul li a:hover{
 #banner {
 	min-width:900px;
     height: 244px;
-    background: transparent url('https://raw.github.com/hphu/hphu.github.io/master/Images/bgimg.png') 0 3px no-repeat fixed;
+    background: transparent url('./Images/zion-horizontal.jpg') 0 3px no-repeat fixed;
     text-align: left;
     background-size: cover;
     background-attachment:scroll;
     width: 100%;
     display: table;
+    background-position: 0 60%;
 }
 
 #bannertxt{
@@ -121,11 +122,6 @@ a:hover {
 	text-decoration:underline;
 }
 
-#foreword{
-	display:table;
-	margin: 2em 0em 0em 0em;
-}
-
 h3 {
 	margin:0 auto;
 }
@@ -148,18 +144,32 @@ img {
 	text-align: center;
 }
 
-.imgcrop {
-    margin: -25px 0 0 -75px;
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
 }
+
+.imgcrop {
+  margin: -25px 0 0 -45px;
+}
+
 .imgcropwide {
-    margin: -50px 0 0 -200px;
+  margin: -50px 0 0 -200px;
 }
 
 .crop {
-	width: 200px; 
-	height: 200px; 
+	width: 300px; 
+	height: 300px; 
 	overflow: hidden;
-	display:inline-block;
+	margin: 5px;
+}
+
+.widecrop {
+	width: 610px;
+	height: 300px; 
+	overflow: hidden;
+	margin: 5px;
 }
 
 .border {

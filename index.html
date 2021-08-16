@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="normalize.css" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css" type="text/css">
+<link href="css/simple-lightbox.css" rel="stylesheet" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -19,10 +20,8 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
 </head>
-
 <body>
 	<div id="top">
 		<div id="topdiv">
@@ -30,73 +29,69 @@
 				<a id="name" href="index.html" width="10" height="10">Henry Phu</a>
 			</h1>
 			<nav>
-	            <ul>
-		            <li><a href="mailto:hphu@bu.edu">Contact</a></li>
-		            <li><a href="drawing.html">Drawing & Painting</a></li>
-		            <li><a href="https://github.com/hphu">Github</a></li>
-		            <li><a href="/projects.html">Projects</a></li>
-		            <li><a href="/index.html">Home</a><li>
-	            </ul>
-        	</nav>
-        </div>
+				<ul>
+					<li>
+						<a href="mailto:hphudev@gmail.com">hphudev@gmail.com</a>
+					</li>
+				</ul>
+			</nav>
+    </div>
 	</div>
 	<div id="banner">
 		<div id="bannertxt">
-			Welcome to my site, I am a software engineer at NextCapital.
+			Chicago-based Software Engineer & Artist
 		</div>
 	</div>
 	<div id="main">
-		<div id="foreword">
-			<h1>About</h1>
-			I am a software engineer at NextCapital, currently working RoR fullstack. A recent graduate of Boston University, I am interested in creating all sorts of software and things. The purpose of this website is to store my projects/work in a portfolio as well as test newer web development applications.
-			<br>
-			<b>Languages:</b> Java, Python, Ruby, Javascript, Objective C, Basic PHP, Basic SQL <br>
-			<b>Libraries/APIs:</b> AngularJS, Android SDK, D3, iOS, Bootstrap, Rails<br>
-			<br>
-			<h1>Projects Overview</h1>
-			<div class="row">
-				<div class="imgcontain">
-					<a href="/tumblr-word-cloud"><img src="Images/tumblrcloud.png" class="border"></a>
-				</div>
+		<h1>Art</h1>
+		<div class="gallery-container">
+			<div class="widecrop gallery"><a href="Painting/uptown.png"><img class="imgcrop" src="Painting/uptown.png"width="1024" height="768" /></a></div>
+			<div class="widecrop gallery"><a href="Painting/printers_row.jpg"><img class="imgcrop" src="Painting/printers_row.jpg" width="876" height="677"/></a></div>
+			<div class="crop gallery"><a href="Painting/bop_b.jpg"><img class="imgcrop" src="Painting/bop_b.jpg" width="512" height="512"/></a></div>
+			<div class="crop gallery"><a href="Painting/snake_b.jpg"><img class="imgcrop" src="Painting/snake_b.jpg" width="512" height="512"/></a></div>
+			<div class="crop gallery"><a href="Painting/fig_b.jpg"><img class="imgcrop" src="Painting/fig_b.jpg" width="512" height="512"/></a></div>
+			<div class="crop gallery"><a href="Painting/road.png"><img class="imgcrop" src="Painting/road.png" width="512" height="512"/></a></div>
+		</div>
+		<div class="gallery-container">
+			<div class="crop gallery"><a href="Painting/rubix.png"><img class="imgcrop" src="Painting/rubix.png" width="394" height="450"/></a></div>
+			<div class="widecrop gallery"><a href="Painting/s2.png"><img class="imgcropwide" src="Painting/s2.png" width="793" height="435"/></a></div>
+			<div class="widecrop gallery"><a href="Painting/mt1.png"><img class="imgcropwide" src="Painting/mt1.png" width="846" height="616"/></a></div>
+			<div class="crop gallery"><a href="Painting/desolationangelwall111paper.png"><img class="imgcropwide" src="Painting/desolationangelwall111paper.png" width="866" height="564"/></a></div>
+		</div>
+		<div class="gallery-container">
+			<div class="crop gallery"><a href="Painting/bpf.png"><img class="imgcrop" src="Painting/bpf.png" width="405" height="637"/></a></div>
+			<div class="crop gallery"><a href="Painting/Paintingonefinal.png"><img class="imgcrop" src="Painting/Paintingonefinal.png"/></a></div>
+			<div class="crop gallery"><a href="Painting/SP2.png"><img class="imgcrop" src="Painting/SP2.png" width="457" height="618"/></a></div>
+			<div class="crop gallery"><a href="Painting/FigureMale.png"><img class="imgcrop" src="Painting/FigureMale.png" width="345" height="435"/></a></div>
+		</div>
+		<h1>Code</h1>
+			<div class="row2">
+				<img src="https://dl.dropboxusercontent.com/s/stnb7x8l3c34j73/dominetscreen.png" class="border">
 				<div class="rowtxt">
-					<h3>Tumblr-Word-Cloud</h3>
-					A web app that generates word clouds based on recent tumblr posts using D3.
+					<h3>Dominet</h3>
+					<p>Dominet is an online implementation of the popular card game dominion. Dominet offers support for meeting other players in a general lobby and playing 2-4 player games. Created for educational purposes, Dominet runs on websockets using a Tornado python backend with AngularJS front-end.</p>
+					<br>
+					<a href="https://github.com/HPRC/Dominet" class="button">View on github</a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="imgcontain">
-					<a href="/making-of-tender.html"><img src="Images/tenderimg.png" class="border"></a>
-				</div>
+			<div class="row2">
+				<iframe src="//player.vimeo.com/video/79368095?portrait=0" width="600" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="rowtxt">
 					<h3>Tender</h3>
-					Tender is an action-platformer browser-based game. Coded in Flash using AS3.
+					<p>Play as a schoolboy who journeys through two different realities. He must fight monsters in a stagnant yet colorful world as well as survive a mundane school life. Game mechanics change based on narrative. Coded using actionscript3 in flash, art assets drawn with Adobe PS5.</p>
+					<br>
+					<a href="/tender.html" class="button">Play</a> <a href="/making-of-tender.html" class="button">Read More </a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="imgcontain">
-					<a href="/projects.html"><img src="Images/simonimg.png" class="border"></a>
-				</div>
-				<div class="rowtxt">
-					<h3>Simon</h3>
-					A simple implementation of the classic memory game Simon Says for android devices.
-				</div>
-			</div>
-			<div class="row">
-				<div class="imgcontain">
-					<a href="/projects.html"><img src="Images/pyviewimg.png" class="border"></a>
-				</div>
-				<div class="rowtxt">
-					<h3>More Projects</h3><br>
-					<a href="/projects.html" class="button">Read More</a>
-				</div>
-			</div>
-		</div>
 		<hr>
-		<footer>
-			<p>Last Updated 5/11/17</p>
-		</footer>
 	</div>
 
 </body>
 
+<script src="js/simple-lightbox.js"></script>
+<script type="text/javascript">
+  (function() {
+  	var lightbox = new SimpleLightbox('.gallery a', {});
+  })();
+</script>
 </html>
