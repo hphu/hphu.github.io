@@ -87,21 +87,8 @@ nav ul li a:hover{
 
 }
 
-div.row {
-	display:table;
-	background-color:#FFFFFF;
-	padding:1em;
-	border-color: #cecdbe;
-	border-style:dashed;
-	border-width:2px;
-	margin-bottom:.5em;
-	margin-left:.5em;
-	width:46%;
-	float:left;
-}
-
 div.row2 {
-	display:table;
+	display:flex;
 	background-color:#FFFFFF;
 	padding:1em;
 	border-color: #cecdbe;
@@ -110,6 +97,8 @@ div.row2 {
 	margin-bottom:.5em;
 	margin-left:.5em;
 	width:100%;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 
